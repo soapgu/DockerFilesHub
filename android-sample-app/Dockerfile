@@ -1,4 +1,4 @@
-FROM soapgu/android-sdk-slim:v1.0
+FROM shgbit-docker.pkg.coding.net/s365/dockers/android-sdk:1.0
 
 WORKDIR /
 RUN git clone https://github.com/soapgu/DockerBuildApk.git andriod
